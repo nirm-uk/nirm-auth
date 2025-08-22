@@ -34,7 +34,7 @@ let auth0Client;
 async function initAuth0() {
   auth0Client = await createAuth0Client({
     domain: "nirm.uk.auth0.com",
-    client_id: "YOUR_CLIENT_ID_HERE"
+    client_id: "nPJ9Ks5rLkanZ4D6C3Qud5gu5vIkopm6"
   });
 }
 initAuth0();
